@@ -22,7 +22,7 @@ A major goal here is to keep the actual list/database private. This includes any
 
 ## Register
 
-`/register hunterid:<hunterid>` (perhaps) begins the registration process. The bot would provide a unique phrase for the hunter. This does not have to be wholly unique but collisions should be infrequent. The hunter would write this phrase on their corkboard. The bot will periodically poll users who are in this phase of the workflow and look for "recent" corkboard messages that contain the phrase. This can be an exact match or close to it. Upon seeing the phrase the user should receive the verified role and a DM to tell them they have received it. Failure to DM should be logged but not considered a complete failure.
+`/register hunterid:<hunterid>` (perhaps) begins the registration process. The bot would provide a unique phrase for the hunter. This does not have to be wholly unique but collisions should be infrequent. The hunter would write this phrase on their corkboard. The bot will periodically poll users who are in this phase of the workflow and look for "recent" corkboard messages written by that hunter that contain the phrase. This can be an exact match or close to it. Upon seeing the phrase the user should receive the verified role and a DM to tell them they have received it. Failure to DM should be logged but not considered a complete failure.
 
 If registration is pending and command is used again, allow to provide a different hunter id; optionally provide a new phrase.
 
