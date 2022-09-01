@@ -42,6 +42,10 @@ If registration is pending and command is used again, allow to provide a differe
 
 `/hv-cleanup`: Cleans up users no longer in the server. Should log all freed hunter ids/user ids.
 
+## Flag - Admin
+
+`/hv-flag`: Flags an id, blocking it from future registrations even if cleaned up or freed. Alerts if used in a lookup or registration attempt.
+
 # Phrases
 
 Phrases should be simple and could be generated from three arrays. For example, color + animal + noun will lead to things like "purple monkey dishwasher". We could use in-game terms or whatever seems fun and still have enough options to be fairly random. 
